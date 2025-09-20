@@ -1,3 +1,6 @@
 include ':app', ':wear', ':SeekArc_library', ':domoticzapi', ':materialList', ':easygcm-lib'
 include ':libs:MemorizingTrustManager'
 project(':SeekArc_library').projectDir = new File('libs/SeekArc_library')
+include ':libs:FakeGmsAds'
+include ':libs:FakeGmsAnalytics'
+include ':libs:FakeRevenueCat'
